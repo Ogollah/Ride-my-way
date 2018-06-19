@@ -84,6 +84,42 @@ body {
     color: #fff;
     text-align: center;
 }
+/*Table*/
+.ride-head{
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+.rides{
+    text-align: center;
+    overflow-x:auto;
+    background-color: #ddd;
+    color: #333;
+    margin-top: 50px;
+    opacity: .8;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+tr a{
+    text-decoration: none;
+    color: #333;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
 /*footer*/
 .footer{
     position: fixed;
