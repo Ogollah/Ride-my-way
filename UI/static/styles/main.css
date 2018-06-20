@@ -57,18 +57,22 @@ body {
 .welcome-message{
     position: relative;
     padding-top: 100px;
+    background-color: #a9a9a9;
+    opacity: .8;
 }
 .welcome-message h1 {
     margin: 0;
     text-shadow: 2px 2px 3px #ff0000;
     font-size: 4em;
     text-align: center;
+    font-family: impact;
 }
 .welcome-message h5{
     margin: 0;
     font-size: 2em;
-    color: #ff0000;
+    color: #1b2c07;
     text-align: center;
+    font-family: impact;
 }
 
 
@@ -115,6 +119,7 @@ tr:nth-child(even) {
 }
 
 /*Login form */
+
 .login {
     width: 320px;
     height: 420px;
