@@ -323,6 +323,14 @@ input[type="password"] {
     background-color: #111;
     width: 35%;
 }
+.lefty{
+    left: 0;
+    background-color: rgb(27, 204, 130);
+    width: 60%;
+}
+.red{
+    background-color: #ff0000;
+}
 
 .right {
     right: 0;
@@ -449,6 +457,10 @@ input[type="reset"] {
 
 .container {
     padding: 0 16px;
+}
+.container a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .container::after,
