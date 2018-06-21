@@ -1,28 +1,29 @@
 /*Body*/
 body {
-    background: url('../img/welcome.jpg') no-repeat center center fixed;
+    background: url('../img/ride-back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-color: whitesmoke;
-    color: white;
+    background-color: #f5f5f5;
+    color: #ffffff;
     position: relative;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 350px;
 }
 
 /*navigation bar*/ 
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #333333;
     opacity: .8;
 }
 
 .navbar a {
     float: left;
-    color: ghostwhite;
+    color: #f8f8ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,8 +36,8 @@ body {
 }
 
 #navbar-right:hover {
-    background-color: ghostwhite;
-    color: black;
+    background-color: #f8f8ff;
+    color: #000000;
 }
 /*logo */
 #logo{
@@ -48,7 +49,7 @@ body {
 
 /*Welcom message */
 .welcome{
-    color: white;
+    color: #1b0303;
     position: relative;
     height: 580px;
     width: 100%;
@@ -56,55 +57,55 @@ body {
 .welcome-message{
     position: relative;
     padding-top: 100px;
+    background-color: #f8f8ff;
+    opacity: .8;
 }
 .welcome-message h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px red;
+    text-shadow: 2px 2px 3px #ff0000;
     font-size: 4em;
     text-align: center;
+    font-family: impact;
 }
-.welcome-message h4{
+.welcome-message h5{
     margin: 0;
-    text-shadow: 2px 2px 3px red;
     font-size: 2em;
-    color: turquoise;
+    color: #0a0a0a;
     text-align: center;
-}
-.welcome-message hr{
-    background-color: blue;
+    font-family: impact;
 }
 
+
 .welcome p {
-    margin: 0;
-    text-shadow: 2px 2px 3px red;
-    font-size: 2em;
-    color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.8em;
+    color: #000000;
     text-align: center;
 }
 /*Table*/
 .ride-head{
-    text-align: center;
+    padding: 10px;
     margin-top: 50px;
-    color: #fff;
+    color: #ffffff;
 }
 .rides{
     text-align: center;
     overflow-x:auto;
-    background-color: #ddd;
-    color: #333;
+    background-color: #dddddd;
+    color: #333333;
     margin-top: 50px;
-    opacity: .8;
 }
 table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
 }
 
 tr a{
     text-decoration: none;
-    color: #333;
+    color: #333333;
 }
 
 th,
@@ -118,11 +119,12 @@ tr:nth-child(even) {
 }
 
 /*Login form */
+
 .login {
     width: 320px;
     height: 420px;
-    background: #333;
-    color: white;
+    background: #333333;
+    color: #ffffff;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -161,14 +163,14 @@ tr:nth-child(even) {
     margin-bottom: 20px;
 }
 
-.login input[type="text"],
+.login input[type="email"],
 input[type="password"] {
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff;
     background: transparent;
     outline: none;
     height: 40px;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -176,35 +178,35 @@ input[type="password"] {
     border: none;
     outline: none;
     height: 40px;
-    background: teal;
-    color: white;
+    background: #008080;
+    color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
 }
 
 .login input[type="submit"]:hover {
     cursor: pointer;
-    background: turquoise;
-    color: black;
+    background: #40e0d0;
+    color: #000000;
 }
 
 .login a {
     text-decoration: none;
     font-size: 15px;
     line-height: 20px;
-    color: darkgrey;
+    color: #a9a9a9;
 }
 
 .login a:hover {
-    color: turquoise;
+    color: #40e0d0;
 }
 
 /*Registration Form */
 .form{
     width: 350px;
     height: 500px;
-    background: #333;
-    color: white;
+    background: #333333;
+    color: #ffffff;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -219,14 +221,14 @@ input[type="password"] {
     padding: 10px;
 }
 
-.form input[type="text"],
+.form input[type="email"],
 input[type="password"] {
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ffffff;
     background: transparent;
     outline: none;
     height: 40px;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
 }
 
@@ -234,8 +236,8 @@ input[type="password"] {
     border: none;
     outline: none;
     height: 40px;
-    background: teal;
-    color: white;
+    background: #008080;
+    color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
 }
@@ -246,7 +248,7 @@ input[type="password"] {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(10, 9, 9);
+    background-color: #0a0909;
     color: white;
     text-align: center;
     opacity: .8;
