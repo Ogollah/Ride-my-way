@@ -330,7 +330,7 @@ input[type="password"] {
 .lefty{
     left: 0;
     background-color: #32555a;
-    width: 65%;
+    width: 100%;
 }
 .red{
     background-color: #ff0000;
@@ -360,6 +360,10 @@ input[type="password"] {
 .centered img {
     width: 150px;
     border-radius: 50%;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /*add ride */
@@ -425,64 +429,22 @@ input[type="reset"] {
     padding: 5px;
 }
 
-/*Friends*/
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-.card img {
-    width: 250px;
-    height: 100px;
-}
-
-.column {
-    float: left;
-    width: 18%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    background-color: #dbc7c7;
-}
-
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 #00000033;
-    background-color: #0e2325;
-    color: #f1d6d6;
-}
-
-.container {
-    padding: 0 16px;
-}
-.container a{
-    text-decoration: none;
-    color: #000000;
-}
-
-.container::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.row h3 {
-    padding: 10px;
-}
 /*edit profile*/
 .center-profile {
     position: relative;
-    width: 700px;
+    width: 100%px;
     height: 530px;
     background-color: #09b699;
+}
+.edit{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+    height: 480px;
+    padding:20px;
+    background-color: #081d19;
 }
 .upload{
     position: absolute;
