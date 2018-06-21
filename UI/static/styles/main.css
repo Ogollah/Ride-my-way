@@ -94,7 +94,7 @@ body {
 
 .ride-head {
     padding: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #ffffff;
 }
 
@@ -103,7 +103,7 @@ body {
     overflow-x: auto;
     background-color: #dddddd;
     color: #333333;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 table {
@@ -329,8 +329,8 @@ input[type="password"] {
 }
 .lefty{
     left: 0;
-    background-color: rgb(27, 204, 130);
-    width: 60%;
+    background-color: #32555a;
+    width: 65%;
 }
 .red{
     background-color: #ff0000;
