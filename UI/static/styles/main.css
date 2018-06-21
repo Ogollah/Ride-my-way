@@ -37,7 +37,7 @@ body {
 
 #navbar-right:hover {
     background-color: #f8f8ff;
-    color: #000000;
+    color: #333333;
 }
 /*logo */
 #logo{
@@ -49,7 +49,7 @@ body {
 
 /*Welcom message */
 .welcome{
-    color: #1b0303;
+    color: #ffffff;
     position: relative;
     height: 580px;
     width: 100%;
@@ -69,18 +69,21 @@ body {
 }
 .welcome-message h5{
     margin: 0;
+    text-shadow: 2px 2px 3px #ff0000;
     font-size: 2em;
-    color: #0a0a0a;
+    color: #40e0d0;
     text-align: center;
     font-family: impact;
+  
+.welcome-message hr{
+    background-color: #0000ff;
 }
 
-
 .welcome p {
-    margin: 10px;
-    padding: 10px;
-    font-size: 1.8em;
-    color: #000000;
+    margin: 0;
+    text-shadow: 2px 2px 3px #ff0000;
+    font-size: 2em;
+    color: #ffffff;
     text-align: center;
 }
 /*Table*/
@@ -242,14 +245,50 @@ input[type="password"] {
     border-radius: 20px;
 }
 
+/*Ride */
+.ride{
+    min-width: 300px;
+    height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #008000;
+    background-color: #7fffd4;
+    color: #000000;
+}
+
+#ride-img{
+    margin: auto;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+    
+}
+
+.ride{
+    padding: 16;
+}
+.ride input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #008080;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: px;
+}
 /*footer*/
 .footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #0a0909;
-    color: white;
+    background-color: #333333;
+    color: #ffffff;
     text-align: center;
     opacity: .8;
 }
