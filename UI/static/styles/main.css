@@ -477,6 +477,28 @@ input[type="reset"] {
 .row h3 {
     padding: 10px;
 }
+/*edit profile*/
+.center-profile {
+    position: relative;
+    width: 700px;
+    height: 530px;
+    background-color: #09b699;
+}
+.upload{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+}
+.edit-form{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    width: 300px;
+    height: 450px;
+}
 
 /*footer*/
 

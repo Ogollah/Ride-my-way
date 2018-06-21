@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Core css link-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/styles/main.css" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <a href="#">
+            <img id="logo" src="../static/img/logo-4.png">
+        </a>
+        <a id="navbar-right" href="login.html">Logout</a>
+        <a id="navbar-right" href="#">Profile</a>
+        <a id="navbar-right" href="offer.html">Ride Requests</a>
+        <a id="navbar-right" href="friend.html">Friend's Request</a>
+        <a id="navbar-right" href="home.html">Home</a>
+    </div>
+
+    <!--edit profile details-->
+    <div class=" edit center-profile">
+        <div class="upload">
+            <form action="">
+                <input type="file" name="pic" accept="image/*">
+                <input type="submit">
+            </form>
+        </div>
+        <div class="edit-form">
+            <h3>Edit Profile</h3>
+            <form class="profile-form-input" action="#">
+                <input placeholder="First Name" type="text" required />
+                <input placeholder="Last Name" type="text" required />
+                <input placeholder="Email" type="email" required />
+                <input placeholder="Reg no" type="text" required />
+                <input placeholder="Capacity" type="number" required />
+                <hr>
+                <input type="submit" />
+                <input type="reset" />
+            </form>
+
+        </div>
+    </div>
+
+    <!--footer fixed-->
+    <div class="footer">
+        <p>Ride-my-way &copy; 2018</p>
+    </div>
+    <script language="JavaScript" src="../static/js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
