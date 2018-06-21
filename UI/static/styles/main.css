@@ -52,8 +52,10 @@ body {
 
 /*Welcom message */
 
+
 .welcome {
     color: #ffffff;
+
     position: relative;
     height: 580px;
     width: 100%;
@@ -62,6 +64,8 @@ body {
 .welcome-message {
     position: relative;
     padding-top: 100px;
+    background-color: #f8f8ff;
+    opacity: .8;
 }
 
 .welcome-message h1 {
@@ -69,18 +73,21 @@ body {
     text-shadow: 2px 2px 3px #ff0000;
     font-size: 4em;
     text-align: center;
+    font-family: impact;
 }
 
 .welcome-message h5 {
     margin: 0;
     font-size: 2em;
-    color: #ff0000;
+    color: #0a0a0a;
     text-align: center;
+    font-family: impact;
 }
 
 .welcome p {
-    margin: 0;
-    font-size: 25;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.8em;
     color: #000000;
     text-align: center;
 }
@@ -144,7 +151,7 @@ tr:nth-child(even) {
     width: 320px;
     height: 420px;
     background: #333333;
-    color: white;
+    color: #ffffff;
     top: 60%;
     left: 50%;
     position: absolute;
