@@ -403,54 +403,6 @@ input[type="password"] {
     width: 30%;
     padding: 5px;
 }
-/*Friends*/
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-.card img{
-    width: 250px;
-    height: 100px;
-}
-
-.column {
-    float: left;
-    width: 18%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-    background-color: #dbc7c7;
-    
-}
-
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 #00000033;
-    background-color: #0e2325;
-    color: #f1d6d6;
-}
-
-.container {
-    padding: 0 16px;
-}
-
-.container::after,
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.row h3{
-    padding: 10px;
-}
-
-
 
 /*footer*/
 
