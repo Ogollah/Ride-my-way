@@ -12,3 +12,6 @@ Ride-my App is a carpooling application that provides drivers with the ability t
 
 # Developer
    [Stephen Ogolla](https://github.com/Ogollah/)
+
+# Githu Pages
+ [Ride-my-way](https://ogollah.github.io/Ride-my-way/)
