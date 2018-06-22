@@ -52,7 +52,7 @@ body {
 
 /*Welcom message */
 .welcome {
-    color: #ffffff;
+    color: #1b0303;
     position: relative;
     height: 580px;
     width: 100%;
@@ -77,19 +77,16 @@ body {
     margin: 0;
     text-shadow: 2px 2px 3px #ff0000;
     font-size: 2em;
-    color: #40e0d0;
+    color: #0a0a0a;
     text-align: center;
     font-family: impact;
-  
-.welcome-message hr{
-    background-color: #0000ff;
 }
 
 .welcome p {
     margin: 0;
-    text-shadow: 2px 2px 3px #ff0000;
-    font-size: 2em;
-    color: #ffffff;
+    padding: 10px;
+    font-size: 1.8em;
+    color: #000000;
     text-align: center;
 }
 
@@ -408,11 +405,9 @@ input[type="password"] {
 /*footer*/
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    overflow: hidden;
     background-color: #333333;
+    opacity: .8;
     color: #ffffff;
     text-align: center;
     opacity: .8;
