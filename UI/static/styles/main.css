@@ -361,6 +361,10 @@ input[type="password"] {
     width: 150px;
     border-radius: 50%;
 }
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /*add ride */
 
@@ -423,6 +427,44 @@ input[type="reset"] {
     border-radius: 20px;
     width: 30%;
     padding: 5px;
+}
+
+
+/*edit profile*/
+.center-profile {
+    position: relative;
+    width: 100%px;
+    height: 530px;
+    background-color: #09b699;
+}
+.edit{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+    height: 480px;
+    padding:20px;
+    background-color: #081d19;
+}
+.upload{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+    background-color: #008080;
+}
+.edit-form{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    width: 300px;
+    height: 450px;
+}
+.upload form{
+    margin-top: 40px;
+    background-color: #00e1ff;
 }
 
 /*footer*/
