@@ -38,7 +38,7 @@ body {
 
 #navbar-right:hover {
     background-color: #f8f8ff;
-    color: #000000;
+    color: #333333;
 }
 
 /*logo */
@@ -51,7 +51,6 @@ body {
 }
 
 /*Welcom message */
-
 .welcome {
     color: #1b0303;
     position: relative;
@@ -76,6 +75,7 @@ body {
 
 .welcome-message h5 {
     margin: 0;
+    text-shadow: 2px 2px 3px #ff0000;
     font-size: 2em;
     color: #0a0a0a;
     text-align: center;
@@ -149,7 +149,7 @@ tr:nth-child(even) {
     width: 320px;
     height: 420px;
     background: #333333;
-    color: white;
+    color: #ffffff;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -270,7 +270,6 @@ input[type="password"] {
 }
 
 /*Ride */
-
 .ride {
     min-width: 300px;
     height: 510px;
@@ -282,7 +281,7 @@ input[type="password"] {
     background-color: #7fffd4;
     color: #000000;
 }
-
+  
 #ride-img {
     margin: auto;
     border-radius: 25px;
@@ -296,7 +295,6 @@ input[type="password"] {
 .ride {
     padding: 16;
 }
-
 .ride input[type="submit"] {
     border: none;
     outline: none;
