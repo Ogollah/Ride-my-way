@@ -1,4 +1,5 @@
 /*Body*/
+
 body {
     background: url('../img/ride-back.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -13,7 +14,7 @@ body {
     min-width: 350px;
 }
 
-/*navigation bar*/ 
+/*navigation bar*/
 
 .navbar {
     overflow: hidden;
@@ -30,7 +31,7 @@ body {
     font-size: 17px;
 }
 
-#navbar-right{
+#navbar-right {
     padding: 30px 12px;
     float: right;
 }
@@ -39,8 +40,10 @@ body {
     background-color: #f8f8ff;
     color: #333333;
 }
+
 /*logo */
-#logo{
+
+#logo {
     height: auto;
     width: auto;
     max-height: 72px;
@@ -48,18 +51,20 @@ body {
 }
 
 /*Welcom message */
-.welcome{
+.welcome {
     color: #ffffff;
     position: relative;
     height: 580px;
     width: 100%;
 }
-.welcome-message{
+
+.welcome-message {
     position: relative;
     padding-top: 100px;
     background-color: #f8f8ff;
     opacity: .8;
 }
+
 .welcome-message h1 {
     margin: 0;
     text-shadow: 2px 2px 3px #ff0000;
@@ -67,7 +72,8 @@ body {
     text-align: center;
     font-family: impact;
 }
-.welcome-message h5{
+
+.welcome-message h5 {
     margin: 0;
     text-shadow: 2px 2px 3px #ff0000;
     font-size: 2em;
@@ -86,19 +92,23 @@ body {
     color: #ffffff;
     text-align: center;
 }
+
 /*Table*/
-.ride-head{
-    padding: 10px;
-    margin-top: 50px;
+
+.ride-head {
+    padding: 0px;
+    margin-top: 10px;
     color: #ffffff;
 }
-.rides{
+
+.rides {
     text-align: center;
-    overflow-x:auto;
+    overflow-x: auto;
     background-color: #dddddd;
     color: #333333;
-    margin-top: 50px;
+    margin-top: 20px;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -106,7 +116,7 @@ table {
     border: 1px solid #dddddd;
 }
 
-tr a{
+tr a {
     text-decoration: none;
     color: #333333;
 }
@@ -119,6 +129,21 @@ td {
 
 tr:nth-child(even) {
     background-color: #f2f2f2
+}
+
+.button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: teal;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #40e0d0;
 }
 
 /*Login form */
@@ -205,7 +230,8 @@ input[type="password"] {
 }
 
 /*Registration Form */
-.form{
+
+.form {
     width: 350px;
     height: 500px;
     background: #333333;
@@ -219,7 +245,8 @@ input[type="password"] {
     padding: 0px 30px;
     margin-top: 293px;
 }
-.form input{
+
+.form input {
     width: 100%;
     padding: 10px;
 }
@@ -246,19 +273,19 @@ input[type="password"] {
 }
 
 /*Ride */
-.ride{
+.ride {
     min-width: 300px;
-    height: 500px;
+    height: 510px;
     padding: 10px;
     box-sizing: border-box;
     margin: auto;
-    width: 50%;
+    width: 30%;
     border: 3px solid #008000;
     background-color: #7fffd4;
     color: #000000;
 }
-
-#ride-img{
+  
+#ride-img {
     margin: auto;
     border-radius: 25px;
     background-position: left top;
@@ -266,10 +293,9 @@ input[type="password"] {
     padding: 5px;
     width: 250px;
     height: 150px;
-    
 }
 
-.ride{
+.ride {
     padding: 16;
 }
 .ride input[type="submit"] {
@@ -279,10 +305,109 @@ input[type="password"] {
     background: #008080;
     color: #ffffff;
     font-size: 18px;
-    border-radius: px;
+    border-radius: 20px;
 }
+
+/*profile*/
+.profile {
+    height: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-color: #111;
+    width: 35%;
+}
+
+.right {
+    right: 0;
+    background-color: #00e1ff;
+    width: 65%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/*add ride */
+.profile-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    background-color: #00000066;
+}
+
+.profile-content {
+    background-color: #1b1414;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #4e4242;
+    width: 30%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-form-input input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+}
+
+.profile-form-input input[type="submit"],
+    input[type="reset"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    background: #008080;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 30%;
+    padding: 5px;
+}
+
 /*footer*/
-.footer{
+
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
