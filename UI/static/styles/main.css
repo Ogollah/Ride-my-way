@@ -38,7 +38,7 @@ body {
 
 #navbar-right:hover {
     background-color: #f8f8ff;
-    color: #000000;
+    color: #333333;
 }
 
 /*logo */
@@ -51,11 +51,8 @@ body {
 }
 
 /*Welcom message */
-
-
 .welcome {
-    color: #ffffff;
-
+    color: #1b0303;
     position: relative;
     height: 580px;
     width: 100%;
@@ -78,6 +75,7 @@ body {
 
 .welcome-message h5 {
     margin: 0;
+    text-shadow: 2px 2px 3px #ff0000;
     font-size: 2em;
     color: #0a0a0a;
     text-align: center;
@@ -85,7 +83,7 @@ body {
 }
 
 .welcome p {
-    margin: 10px;
+    margin: 0;
     padding: 10px;
     font-size: 1.8em;
     color: #000000;
@@ -96,7 +94,7 @@ body {
 
 .ride-head {
     padding: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #ffffff;
 }
 
@@ -105,7 +103,7 @@ body {
     overflow-x: auto;
     background-color: #dddddd;
     color: #333333;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 table {
@@ -272,7 +270,6 @@ input[type="password"] {
 }
 
 /*Ride */
-
 .ride {
     height: 520px;
     padding: 5px;
@@ -310,6 +307,9 @@ input[type="password"] {
 .ride {
     padding: 16;
 }
+.ride-head h2{
+    padding: 20px;
+}
 
 .ride input[type="submit"] {
     border: none;
@@ -319,9 +319,11 @@ input[type="password"] {
     color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
+    margin-left: 20px;
 }
 
 /*profile*/
+
 .profile {
     height: 75%;
     position: fixed;
@@ -336,11 +338,26 @@ input[type="password"] {
     background-color: #111;
     width: 35%;
 }
+.lefty{
+    left: 0;
+    background-color: #32555a;
+    width: 100%;
+}
+.red{
+    background-color: #ff0000;
+}
 
 .right {
     right: 0;
     background-color: #00e1ff;
     width: 65%;
+}
+
+.center {
+    background-color: #4e4242;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
 }
 
 .centered {
@@ -355,8 +372,13 @@ input[type="password"] {
     width: 150px;
     border-radius: 50%;
 }
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /*add ride */
+
 .profile-form {
     display: none;
     position: fixed;
@@ -406,7 +428,7 @@ input[type="password"] {
 }
 
 .profile-form-input input[type="submit"],
-    input[type="reset"] {
+input[type="reset"] {
     border: none;
     outline: none;
     height: 35px;
@@ -418,6 +440,44 @@ input[type="password"] {
     padding: 5px;
 }
 
+
+/*edit profile*/
+.center-profile {
+    position: relative;
+    width: 100%px;
+    height: 530px;
+    background-color: #09b699;
+}
+.edit{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+    height: 480px;
+    padding:20px;
+    background-color: #081d19;
+}
+.upload{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+    background-color: #008080;
+}
+.edit-form{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    width: 300px;
+    height: 450px;
+}
+.upload form{
+    margin-top: 40px;
+    background-color: #00e1ff;
+}
+
 /*footer*/
 
 .footer {
@@ -425,8 +485,8 @@ input[type="password"] {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #0a0909;
+    color: white;
     text-align: center;
     opacity: .8;
 }
