@@ -139,7 +139,7 @@ tr:nth-child(even) {
 .button {
     border: none;
     outline: none;
-    height: 30px;
+    height: 35px;
     background: teal;
     color: white;
     font-size: 18px;
@@ -334,7 +334,7 @@ input[type="password"] {
 /*profile*/
 
 .profile {
-    height: 75%;
+    height: 72%;
     position: fixed;
     z-index: 1;
     top: 100px;
@@ -345,7 +345,7 @@ input[type="password"] {
 .left {
     left: 0;
     background-color: #111;
-    width: 35%;
+    width: 40%;
 }
 .lefty{
     left: 0;
@@ -359,20 +359,20 @@ input[type="password"] {
 .right {
     right: 0;
     background-color: #00e1ff;
-    width: 65%;
+    width: 60%;
 }
 
 .center {
     background-color: #4e4242;
     margin: auto;
-    width: 30%;
+    width: 35%;
     padding: 10px;
 }
 
 .centered {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -499,4 +499,18 @@ input[type="reset"] {
     color: #ffffff;
     text-align: center;
     opacity: .8;
+}
+
+footer {
+    display: flex;
+    padding: 10px 5px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
 }
