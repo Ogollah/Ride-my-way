@@ -108,7 +108,7 @@ body {
     overflow-x: auto;
     background-color: #dddddd;
     color: #333333;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .ride-head h2{
     margin: 5px;
@@ -316,6 +316,10 @@ input[type="password"] {
 .ride {
     padding: 16;
 }
+.ride-head h2{
+    padding: 20px;
+}
+
 .ride input[type="submit"] {
     border: none;
     outline: none;
@@ -324,9 +328,11 @@ input[type="password"] {
     color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
+    margin-left: 20px;
 }
 
 /*profile*/
+
 .profile {
     height: 75%;
     position: fixed;
@@ -341,11 +347,26 @@ input[type="password"] {
     background-color: #111;
     width: 35%;
 }
+.lefty{
+    left: 0;
+    background-color: #32555a;
+    width: 100%;
+}
+.red{
+    background-color: #ff0000;
+}
 
 .right {
     right: 0;
     background-color: #00e1ff;
     width: 65%;
+}
+
+.center {
+    background-color: #4e4242;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
 }
 
 .centered {
@@ -360,8 +381,13 @@ input[type="password"] {
     width: 150px;
     border-radius: 50%;
 }
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 /*add ride */
+
 .profile-form {
     display: none;
     position: fixed;
@@ -411,7 +437,7 @@ input[type="password"] {
 }
 
 .profile-form-input input[type="submit"],
-    input[type="reset"] {
+input[type="reset"] {
     border: none;
     outline: none;
     height: 35px;
@@ -421,6 +447,44 @@ input[type="password"] {
     border-radius: 20px;
     width: 30%;
     padding: 5px;
+}
+
+
+/*edit profile*/
+.center-profile {
+    position: relative;
+    width: 100%px;
+    height: 530px;
+    background-color: #09b699;
+}
+.edit{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 500px;
+    height: 480px;
+    padding:20px;
+    background-color: #081d19;
+}
+.upload{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    padding:20px;
+    background-color: #008080;
+}
+.edit-form{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    width: 300px;
+    height: 450px;
+}
+.upload form{
+    margin-top: 40px;
+    background-color: #00e1ff;
 }
 
 /*footer*/
