@@ -490,3 +490,17 @@ input[type="reset"] {
     text-align: center;
     opacity: .8;
 }
+
+footer {
+    display: flex;
+    padding: 10px 5px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    height: 35px;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
