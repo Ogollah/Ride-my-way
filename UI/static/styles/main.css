@@ -141,7 +141,7 @@ tr:nth-child(even) {
 .button {
     border: none;
     outline: none;
-    height: 35px;
+    height: 30px;
     background: teal;
     color: white;
     font-size: 18px;
@@ -308,7 +308,9 @@ input[type="password"] {
 
 /*Ride */
 .ride {
-    height: 500px;
+    min-width: 300px;
+    height: 520px;
+    padding: 10px;
     box-sizing: border-box;
     margin: auto;
     width: 100%;
@@ -385,7 +387,7 @@ input[type="password"] {
 /*profile*/
 
 .profile {
-    height: 72%;
+    height: 78%;
     position: fixed;
     z-index: 1;
     top: 100px;
@@ -491,7 +493,7 @@ input[type="password"] {
 input[type="reset"] {
     border: none;
     outline: none;
-    height: 35px;
+    height: 30px;
     background: #008080;
     color: #ffffff;
     font-size: 18px;
@@ -615,48 +617,13 @@ input[type="reset"] {
 
 .footer {
     bottom: 0;
-    width: 98.5%;
-    height: 50px;
-    padding: 10px;
-    background-color: #333333;
-    opacity: .8;
-    color: #ffffff;
+    width: 100%;
+    background-color: #0a0909;
+    color: white;
     text-align: center;
     height: 35px;
 }
 
-footer p {
-    flex: 1;
-    margin: 0;
-}
-
-footer {
-    display: flex;
-    padding: 10px 5px;
-    background-color: #333333;
-    color: #fff;
-    text-align: center;
-    height: 48px;
-}
-
-footer p {
-    flex: 1;
-    margin: 0;
-}
-
-footer {
-    display: flex;
-    padding: 10px 5px;
-    background-color: #333333;
-    color: #fff;
-    text-align: center;
-    height: 35px;
-}
-
-footer p {
-    flex: 1;
-    margin: 0;
-}
 footer {
     display: flex;
     padding: 10px 5px;
