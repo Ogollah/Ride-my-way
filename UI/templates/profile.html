@@ -12,17 +12,19 @@
 
 <body>
     <!--Navbar-->
+<div class="profile-main">
     <div class="navbar">
         <a href="#">
             <img id="logo" src="../static/img/logo-4.png">
         </a>       
         <a id="navbar-right" href="login.html">Logout</a>
         <a id="navbar-right" href="#">Profile</a>
-        <a id="navbar-right" href="offer.html">Ride Requests</a>        
+        <a id="navbar-right" href="offer.html">Requests</a>        
         <a id="navbar-right" href="home.html">Home</a>
     </div>
 
     <!--user profile details-->
+<div class="profile-main">
     <div class="profile left">
         <div class="centered">
             <div class="card">
@@ -61,7 +63,7 @@
                 <td>Town</td>
                 <td>20/6/2018</td>
                 <td>8:00AM</td>
-                <td><button class="button">Expired</button></td>
+                <td><button class="button">Expired</button><a href="#"><button class="button" style="background-color:lightcoral">Delete</button></a></td>
 
             </tr>
             <tr>
@@ -69,21 +71,21 @@
                 <td>Bamburi</td>
                 <td>20/6/2018</td>
                 <td>8:30AM</td>
-                <td><button class="button">Expired</button></td>
+                <td><button class="button">Expired</button><a href="#"><button class="button" style="background-color:lightcoral">Delete</button></a></td>
             </tr>
             <tr>
                 <td>Kisauni</td>
                 <td>Mtwapa</td>
                 <td>20/6/2018</td>
                 <td>9:00AM</td>
-                <td><button class="button">Expired</button></td>
+                <td><button class="button">Expired</button><a href="#"><button class="button" style="background-color:lightcoral">Delete</button></a></td>
             </tr>
             <tr>
                 <td>Adams</td>
                 <td>Kabanas</td>
                 <td>20/6/2018</td>
                 <td>10:00AM</td>
-                <td><button class="button">Expired</button></td>
+                <td><button class="button">Expired</button><a href="#"><button class="button" style="background-color:lightcoral">Delete</button></a></td>
             
             </tr>
              <tr>
@@ -91,7 +93,7 @@
                 <td>Kabanas</td>
                 <td>20/6/2018</td>
                 <td>10:00AM</td>
-                <td><button class="button">Active</button></td>
+                <td><button class="button">Active</button><a href="#"><button class="button" style="background-color:lightcoral">Edit Ride</button></a></td>
             
             </tr>
             </table>
@@ -115,13 +117,14 @@
                     <input placeholder="Destination" type="text" required />
                     <input placeholder="Passengers" type="number" required />
                     <input placeholder="Date" type="date" required />
-                    <input placeholder="Time" type="time" required /><br>
+                    <input placeholder="Time" type="time" required /><hr>
                     <input type="submit" />
                     <input type="reset" />
                 </form>
             </div>
         </div>
     </div>
+</div>
 
     <!--footer fixed-->
     <div class="footer">
