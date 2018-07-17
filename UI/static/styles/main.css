@@ -56,7 +56,7 @@ body {
 .welcome {
     color: #1b0303;
     position: relative;
-    height: 580px;
+    height: 498px;
     width: 100%;
 }
 
@@ -93,9 +93,14 @@ body {
 }
 
 /*Table*/
+.main {
+    height: 498px;
+    max-width: 100%;
+    background-color: #008080;
+    margin-top: 0;
+}
 
 .ride-head {
-    padding: 0px;
     margin-top: 5px;
     color: #ffffff;
 }
@@ -106,6 +111,9 @@ body {
     background-color: #dddddd;
     color: #333333;
     margin-top: 10px;
+}
+.ride-head h2{
+    margin: 5px;
 }
 
 table {
@@ -133,12 +141,13 @@ tr:nth-child(even) {
 .button {
     border: none;
     outline: none;
-    height: 30px;
+    height: 35px;
     background: teal;
     color: white;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
+    margin: 5px;
 }
 
 .button:hover {
@@ -146,6 +155,12 @@ tr:nth-child(even) {
 }
 
 /*Login form */
+.login-page{
+    width: 100%;
+    height:500px; 
+    background-color: #008080;
+    opacity: .8;
+}
 
 .login-page {
     width: 100%;
@@ -251,6 +266,12 @@ input[type="password"] {
     padding: 0px 30px;
     margin-top: 293px;
 }
+.reg-page {
+    width: 100%;
+    height: 500px;
+    background-color: #008080;
+    opacity: .8;
+}
 
 .reg-page {
     width: 100%;
@@ -354,7 +375,7 @@ input[type="password"] {
 /*profile*/
 
 .profile {
-    height: 75%;
+    height: 72%;
     position: fixed;
     z-index: 1;
     top: 100px;
@@ -365,7 +386,7 @@ input[type="password"] {
 .left {
     left: 0;
     background-color: #111;
-    width: 35%;
+    width: 40%;
 }
 .lefty{
     left: 0;
@@ -379,20 +400,20 @@ input[type="password"] {
 .right {
     right: 0;
     background-color: #00e1ff;
-    width: 65%;
+    width: 60%;
 }
 
 .center {
     background-color: #4e4242;
     margin: auto;
-    width: 30%;
+    width: 35%;
     padding: 10px;
 }
 
 .centered {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -449,7 +470,7 @@ input[type="password"] {
     border-bottom: 1.5px solid #ffffff;
     background: transparent;
     outline: none;
-    height: 35px;
+    height: 30px;
     color: #ffffff;
     font-size: 16px;
     width: 100%;
@@ -547,22 +568,13 @@ input[type="reset"] {
 /*footer*/
 
 .footer {
-   width: 98.5%;
-   height: 30px;
-   padding: 10px;
-   background-color: #333333;
-   opacity: .8;
-   color: #ffffff;
-   text-align: center;
-   opacity: .8;
-   overflow: hidden;
-}
-
-footer {
-    display: flex;
-    padding: 10px 5px;
+    bottom: 0;
+    width: 98.5%;
+    height: 50px;
+    padding: 10px;
     background-color: #333333;
-    color: #fff;
+    opacity: .8;
+    color: #ffffff;
     text-align: center;
     height: 35px;
 }
@@ -579,6 +591,20 @@ footer {
     color: #fff;
     text-align: center;
     height: 48px;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    padding: 10px 5px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    height: 35px;
 }
 
 footer p {
