@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ride</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Core css link-->
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/styles/main.css" />
+    <script src="../static/js/main.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <a href="#">
+            <img id="logo" src="../static/img/logo-4.png">
+        </a>
+        <a id="navbar-right" href="login.html">Logout</a>
+        <a id="navbar-right" href="profile.html">Profile</a>
+        <a id="navbar-right" href="home.html">Home</a>
+    </div>
+
+    <!--Edit Ride details-->
+    <div class="edit-ride">
+        <div class="offer-details">
+            <form class="edit-form-input" method="POST" , action="profile.html">
+                <img id="ride-img" src="../static/img/ride-new.jpg" />
+                <input placeholder="Name" type="text" required />
+                <input placeholder="Ride" type="text" required />
+                <input placeholder="Reg no" type="text" required />
+                <input placeholder="From" type="text" required />
+                <input placeholder="Destination" type="text" required />
+                <input placeholder="Passengers" type="number" required />
+                <input placeholder="Date" type="date" required />
+                <input placeholder="Time" type="time" required />
+                <hr>
+                <br>
+                    <input type="submit" />
+                    <input type="reset" />
+            </form>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <p>© 2018 Ride-my-way</p>
+        
+    </footer>
+
+</body>
+
+</html>
