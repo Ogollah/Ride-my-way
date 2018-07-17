@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login</title>
+    <title>Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Core css link-->
     <link rel="stylesheet" type="text/css" media="screen" href="../static/styles/main.css" />
@@ -23,42 +23,42 @@
     </div>
 
     <!--Registration form-->
-    <div class="register">
-    <form action="login.html" class="form">
-        <div class="container">
-            <h1>Sign Up</h1>
-            <p>Please fill in this form to create an account.</p>
-            <hr>
-    
-            <label for="email">
-                <b>Email</b>
-            </label>
-            <input type="email" placeholder="Enter Email" name="email" required>
-    
-            <label for="psw">
-                <b>Password</b>
-            </label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-    
-            <label for="psw-repeat">
-                <b>Repeat Password</b>
-            </label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    
-            <p>By creating an account you agree to our
-                <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-            <a href="login.html"><input type="submit" name="" value="Sign up"></a>
-    
-        </div>
-    </form>
+    <div class="reg-page">
+        <form method="POST", action="login.html" class="form">
+            <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+        
+                <label for="email">
+                    <b>Email</b>
+                </label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+        
+                <label for="psw">
+                    <b>Password</b>
+                </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                <label for="psw-repeat">
+                    <b>Repeat Password</b>
+                </label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+                <p>By creating an account you agree to our
+                    <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                <input type="submit" name="" value="Sign up">
+        
+            </div>
+        </form>
     </div>
 
-    <!--footer fixed-->
-    <div class="footer">
-        <p>Ride-my-way &copy; 2018</p>
-    </div>
+   <!--footer-->
+    <footer>
+        <p>© 2018 Ride-my-way</p>
+        
+    </footer>
 
 </body>
 
 </html>
-
